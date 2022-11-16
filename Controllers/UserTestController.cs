@@ -9,7 +9,8 @@ namespace MongoExample.Controllers;
 
 [Controller]
 [Route("api/[controller]")]
-public class UserTestController: Controller {
+public class UserTestController: Controller
+{
 
     private readonly MongoDBService _mongoDBService;
 
