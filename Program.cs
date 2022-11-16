@@ -1,6 +1,7 @@
 using MongoExample.Models;
 using MongoExample.Services;
 
+///Example
 
 var builder = WebApplication.CreateBuilder(args);
 
